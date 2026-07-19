@@ -14,6 +14,8 @@ aircraft_weight=float(input("ENTER AIRCRAFT WEIGHT:"))
 
 total_lift= lift_force(air_density,velocity,wing_area,lift_coefficient)
 
+#printing
+print("LIFT:",round(total_lift,2),"N")
 #conditions
 
 if total_lift>= aircraft_weight:
