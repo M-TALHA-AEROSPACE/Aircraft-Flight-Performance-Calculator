@@ -32,9 +32,9 @@ Tc=T-273.15
 #printing
 
 print("LIFT:",round(total_lift,2),"N")
-print("TEMPRATURE:",round(Tc),"°C")
-print("PRESSURE:",round(P),"Pa")
-print("DENSITY:",round(p),"KGM³")
+print("TEMPRATURE:",round(Tc,2),"°C")
+print("PRESSURE:",round(P,2),"Pa")
+print("DENSITY:",round(p,2),"KGM³")
 
 #conditions
 
